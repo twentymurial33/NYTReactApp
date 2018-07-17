@@ -5,7 +5,7 @@ import Results from "./Results";
 import API from "../utils/API";
 
 
-class mainPage extends React.Component{
+class Mainp extends React.Component{
   constructor(props) {
     super(props);
     this.state = {
@@ -22,10 +22,11 @@ class mainPage extends React.Component{
 				<Search/>
 				<Results/>
 				<Saved/>
+        <API/> 
 			</div>
 		);
   }
 }
 
 
-export default mainPage;
+export default Mainp;

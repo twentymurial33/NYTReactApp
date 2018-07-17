@@ -1,14 +1,18 @@
-
 import React, { Component } from 'react';
-// import {Route} from 'react-router-dom';
-import mainPage from './components/mainPage';
-import Results from './components/Results';
+import Mainp from './components/Mainp';
 
 
-const App =()=>
-<div className="ui container">
-  {/* <Route path="/" exact component={mainPage}/> */}
-</div>;
+class App extends React.Component{
+
+      render(){
+   
+        return (
+          <div className="App">
+           <Mainp/>
+          </div>
+        );
+      }
+    }
+
+
 export default App;
-
-
